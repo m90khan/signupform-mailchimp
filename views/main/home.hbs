@@ -1,0 +1,27 @@
+<div class="row">
+  {{#if message}}
+  <div class="alert alert-success alert-dismissible">
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" >
+      <span aria-hidden="true">&times</span>
+    </button>
+    {{ message }}
+  </div>
+  {{ /if }}
+  <form action='/' class="text-center border border-light p-5" method='Post' class="form-signin">
+
+    <p class="h4 mb-4">Subscribe</p>
+
+    <p>Join our mailing list. We write rarely, but only the best content.</p>
+
+      <!-- Name -->
+    <input type="name" id="defaultSubscriptionFormPassword" class="form-control mb-4" placeholder="Name">
+
+    <!-- Email -->
+    <input type="email" id="defaultSubscriptionFormEmail" class="form-control mb-4" placeholder="E-mail">
+
+    <!-- Sign in button -->
+    <button class="btn btn-info btn-block" type="submit">Sign in</button>
+
+
+</form>
+</div>
