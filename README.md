@@ -7,3 +7,5 @@ Newsletter Sign up subscribed form data to be posted directed to mailchimp list 
 
 Technologies Used:
 HTML5, CSS3, JavaScript ES6, NPM, Node.js, Express, body-parser, request, morgan,handlebars, express-session/flash, conenct-mongo
+
+You have to enter your own listid/ mongoserid/ api key and mergefields data if you have not changed it.
