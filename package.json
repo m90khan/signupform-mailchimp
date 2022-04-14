@@ -9,7 +9,7 @@
   "author": "KhanX",
   "license": "ISC",
   "dependencies": {
-    "async": "^3.0.1",
+    "async": "^3.2.2",
     "body-parser": "^1.19.0",
     "connect-mongo": "^2.0.3",
     "express": "^4.17.1",
